@@ -18,7 +18,9 @@
   "homepage": "https://github.com/honduranheat/bamazon#readme",
   "dependencies": {
     "chalk": "^2.4.1",
+    "console.table": "^0.10.0",
     "inquirer": "^5.2.0",
-    "mysql": "^2.15.0"
+    "mysql": "^2.15.0",
+    "print-message": "^2.1.0"
   }
 }
