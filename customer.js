@@ -104,17 +104,11 @@ function next() {
         if (response.checkout === true) {
             selectProducts();
         } else {
-            console.log('Thanks for shopping!');
+            console.log(chalk.blue('Thanks for shopping!'));
             connection.end();
         }
     })
 
 }
-//last line
 
-
-
-// function checkOut() {
-
-// };
 connect();
